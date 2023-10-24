@@ -1,6 +1,8 @@
-#!bin/bash
+#!/bin/bash
+
+# Check the command and execute the appropriate function
 if [ "$1" == "create" ]; then
-    if [ -z "$2" ]; then
-        # Your code here
-    fi
+    ./create "$2"
+else
+    echo "Usage: jsmosaic [create] <project-name>"
 fi
