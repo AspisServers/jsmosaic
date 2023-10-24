@@ -1,5 +1,6 @@
-#!/bin/bash
-
-if [ "$1" = "help" ]; then
-    echo "Helping!"
+#!bin/bash
+if [ "$1" == "create" ]; then
+    if [ -z "$2" ]; then
+        # Your code here
+    fi
 fi
